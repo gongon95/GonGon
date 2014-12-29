@@ -93,6 +93,6 @@ object hello_scala02_control_worksheet {
 	// asgn_x = asgn_y = 1 // scala does not permit this expression
 
 	 
-
+	// next is 2.4 Input and Output
 
 }
