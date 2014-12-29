@@ -71,5 +71,15 @@ object hello_scala01_var_worksheet {
 	sqrt(2)                                   //> res10: Double = 1.4142135623730951
 	pow(2,4)                                  //> res11: Double = 16.0
 	min(3, Pi)                                //> res12: Double = 3.0
+	
+	/**
+	 * apply() method
+	 */
+	
+	// the following can be thought as overloading from '()' operator
+	"Hello"(4)                                //> res13: Char = o
+	"Hello".apply(4)                          //> res14: Char = o
+	"hello" apply 4                           //> res15: Char = o
+	
 
 }
